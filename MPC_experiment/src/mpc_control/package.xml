@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>mpc_control</name>
+  <version>0.0.0</version>
+  <description>OSQP-based MPC controller for CARLA ROS 2.</description>
+  <maintainer email="vts@todo.todo">vts</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>ament_index_cpp</depend>
+  <depend>eigen</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>osqp_vendor</depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
